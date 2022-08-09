@@ -108,3 +108,41 @@ nav{
 a:hover{
   box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
 }
+
+header{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  background: linear-gradient(var(--color-bg-3),var(--color-bg-1));
+  overflow: hidden;
+}
+.header__container{
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  margin-top: 10rem;
+  position: relative;
+}
+.header__img-bg{
+  background: var(--color-bg-4);
+  height: 22rem;
+  width: 16rem;
+  position: absolute;
+}
+.header__img-lg{
+  width: 29rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+
+  filter: saturate(0) brightness(0.3);
+}
+.header__img-sm{
+  width: 28rem;
+  height: 28rem;
+  overflow: hidden;
+  position: absolute;
+  top: 6rem;
+  left: 6rem;
+}
