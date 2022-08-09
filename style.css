@@ -119,8 +119,8 @@ header{
 }
 .header__container{
   display: grid;
-  grid-template-columns: 40% 50%;
-  gap: 10%;
+  grid-template-columns: 42% 52%;
+  gap: 6%;
   margin-top: 10rem;
   position: relative;
 }
@@ -135,8 +135,8 @@ header{
   position: relative;
   top: 1rem;
   left: 1rem;
-
   filter: saturate(0) brightness(0.3);
+  transition: var(--transition);
 }
 .header__img-sm{
   width: 28rem;
@@ -145,4 +145,14 @@ header{
   position: absolute;
   top: 6rem;
   left: 6rem;
+  transition: var(--transition);
+}
+.header__left:hover .header__img-sm{
+  opacity: 0;
+}
+.header__left:hover .header__img-lg{
+  filter: saturate(1) brightness(1);
+  border: 1rem solid var(--color-bg-4);
+  top: 0;
+  left: 0;
 }
