@@ -203,3 +203,7 @@ header{
 .header__frames:hover .header__frame{
   transform: rotate(0);
 }
+.header__frames:hover .header__frame:nth-child(2){
+  top: 0;
+  left: 15rem;
+}
