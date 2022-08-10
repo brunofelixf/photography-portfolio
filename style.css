@@ -207,3 +207,46 @@ header{
   top: 0;
   left: 15rem;
 }
+.contact__btn{
+  color: var(--color-bg-1);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.header__btn{
+  background: linear-gradient(-30deg, var(--color-primary),var(--color-primary),var(--color-primary-variant));
+  position: absolute;
+  right: 5%;
+  bottom: -3rem;
+}
+.header__btn:hover{
+   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+   transform: translateY(-1rem);
+   color:var(--color-bg-1)
+}
+.contact__btn i{
+  font-size: 3.5rem;
+  position: absolute;
+}
+.contact__btn p{
+  font-size: 1rem;
+  font-weight: 600;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  animation: spinText 5s linear infinite;
+}
+.contact__btn p span{
+  position: absolute;
+  transform-origin: 0.3rem 5rem;
+}
+@keyframes spinText {
+  to{
+    transform: rotate(360deg);
+  }
+}
