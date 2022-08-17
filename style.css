@@ -86,7 +86,10 @@ nav{
   display: none;
 }
 .nav__logo{
-  width: 7.5rem;
+  width: 6rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
 .nav__links{
   display: flex;
