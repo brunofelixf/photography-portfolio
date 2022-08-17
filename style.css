@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Saira', sans-serif;
   background-color: var(--color-bg-1);
   color: var(--color-light);
   line-height: 1.7;
@@ -113,18 +113,18 @@ a:hover{
 }
 
 header{
-  width: 100vw;
+  width: 98.7vw;
   height: 100vh;
   position: relative;
   top: 0;
   background: linear-gradient(var(--color-bg-1),var(--color-bg-3));
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .header__container{
   display: grid;
   grid-template-columns: 42% 52%;
   gap: 6%;
-  margin-top: 10rem;
+  margin-top: 8rem;
   position: relative;
 }
 .header__img-bg{
@@ -185,8 +185,8 @@ header{
 }
 .header__frames{
   position: absolute;
-  top: 88vh;
-  right: 44rem;
+  top: 70vh;
+  right: 46rem;
   transition: var(--transition);
 }
 .header__frame{
@@ -224,7 +224,7 @@ header{
   background: linear-gradient(-30deg, var(--color-primary),var(--color-primary),var(--color-primary-variant));
   position: absolute;
   right: 5%;
-  bottom: -3rem;
+  bottom: 1rem;
 }
 .header__btn:hover{
    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
